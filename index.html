@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+    <html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pesan tiket kapal laut dengan mudah dan cepat di platform kami. Nikmati perjalanan laut yang nyaman dan aman.">
+    <title>Pembelian Tiket Kapal Laut</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: whitesmoke;
+        }
+        header {
+            background-image: url('https://example.com/your-image.jpg'); /* Ganti dengan URL gambar header Anda */
+            background-size: cover;
+            background-position: center;
+            padding: 80px 20px;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        header p {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .cta-button {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+        .feature-item {
+            text-align: center;
+            max-width: 300px;
+        }
+        .feature-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+        }
+        .feature-item h3 {
+            margin-top: 20px;
+            font-size: 24px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        body {
+          background-image: url(/laragon/www/ul/tugas.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style>
+       </head>
+        <body>
+<header>
+    <h1>Pesan Tiket Kapal Laut Anda</h1>
+    <p>Perjalanan laut yang nyaman dan aman, hanya beberapa klik saja!</p>
+    <a href="#book-now" class="cta-button">Pesan Tiket Sekarang</a>
+</header>
+
+<div class="container">
+    <section id="features">
+        <h2>Kenapa Memilih Kami?</h2>
+        <div class="features">
+            <div class="feature-item">
+                <img src="tawel.webp" alt="Pengiriman Cepat">
+                <h3>Pengiriman Cepat</h3>
+                <p>Kapal kami beroperasi dengan jadwal yang tepat waktu, memastikan perjalanan Anda lancar dan tepat waktu.</p>
+            </div>
+            <div class="feature-item">
+                <img src="laut.png" alt="Kenyamanan">
+                <h3>Kenyamanan</h3>
+                <p>Dengan fasilitas modern dan ruang yang nyaman, perjalanan Anda akan menjadi pengalaman yang menyenangkan.</p>
+            </div>
+            <div class="feature-item">
+                <img src="aman.png" alt="Keamanan">
+                <h3>Keamanan</h3>
+                <p>Kami mengutamakan keselamatan penumpang dengan prosedur keselamatan yang ketat.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="book-now">
+        <h2>Pesan Tiket Kapal Laut Anda</h2>
+        <p>Masukkan detail perjalanan Anda dan pilih tanggal untuk memesan tiket kapal laut sekarang juga!</p>
+        
+        <form action="https://example.com/booking" method="POST">
+            <label for="departure-port">Pelabuhan Keberangkatan</label>
+            <input type="text" id="departure-port" name="departure-port" placeholder="Contoh: Pelabuhan Tanjung Priok" required>
+
+            <label for="destination-port">Pelabuhan Tujuan</label>
+            <input type="text" id="destination-port" name="destination-port" placeholder="Contoh: Pelabuhan Surabaya" required>
+
+            <label for="departure-date">Tanggal Keberangkatan</label>
+            <input type="date" id="departure-date" name="departure-date" required>
+
+            <label for="passengers">Jumlah Penumpang</label>
+            <input type="number" id="passengers" name="passengers" min="1" required>
+
+            <button type="submit" class="cta-button">Pesan Sekarang</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Pembelian Tiket Kapal Laut. Semua hak cipta dilindungi.</p>
+ </footer>
+ </body>
+ </html>
